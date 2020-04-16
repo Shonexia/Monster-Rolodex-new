@@ -1,0 +1,33 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+  border: 4px solid #a571df;
+  background:linear-gradient(30deg, #95dada 15%,#74b9f9 72%,#95dada 90%,#95dada 100% );
+}
+
+h1 {
+  font-size: 1.3em;
+  margin: 1em auto 0;
+}
+
+p {
+  margin: 0.4em auto;
+}
+
+.user-name {
+  -webkit-text-stroke: 1px #a571df;
+  font-weight: bold;
+}

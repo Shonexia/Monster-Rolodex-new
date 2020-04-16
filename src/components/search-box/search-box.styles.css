@@ -1,0 +1,35 @@
+.search-box {
+  display: inline-block;
+}
+
+.search {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  min-width: 30px;
+  max-width: 250px;
+  line-height: 14px;
+  margin: 0 10px 20px;
+  border: 1px solid #000;
+}
+
+.search:focus,
+.search:hover {
+  border: 1px solid #a571df;
+}
+
+.search + .search {
+  margin-left: 30px;
+}
+
+span {
+  margin: 0 2px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px #a571df;
+}
+
+.search-image {
+  margin: 0 2px;
+  height: 15px;
+}
